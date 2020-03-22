@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pokemon-app/static/css/main.95bc952e.chunk.css",
-    "main.js": "/pokemon-app/static/js/main.8328534b.chunk.js",
-    "main.js.map": "/pokemon-app/static/js/main.8328534b.chunk.js.map",
+    "main.css": "/pokemon-app/static/css/main.893857e6.chunk.css",
+    "main.js": "/pokemon-app/static/js/main.6052b3d2.chunk.js",
+    "main.js.map": "/pokemon-app/static/js/main.6052b3d2.chunk.js.map",
     "runtime-main.js": "/pokemon-app/static/js/runtime-main.57e645c7.js",
     "runtime-main.js.map": "/pokemon-app/static/js/runtime-main.57e645c7.js.map",
-    "static/js/2.89583d3a.chunk.js": "/pokemon-app/static/js/2.89583d3a.chunk.js",
-    "static/js/2.89583d3a.chunk.js.map": "/pokemon-app/static/js/2.89583d3a.chunk.js.map",
+    "static/js/2.272655d9.chunk.js": "/pokemon-app/static/js/2.272655d9.chunk.js",
+    "static/js/2.272655d9.chunk.js.map": "/pokemon-app/static/js/2.272655d9.chunk.js.map",
     "index.html": "/pokemon-app/index.html",
-    "precache-manifest.e9e6c696d48d517039497b827a47f28a.js": "/pokemon-app/precache-manifest.e9e6c696d48d517039497b827a47f28a.js",
+    "precache-manifest.80eb810fad136345ecb9d16d183a7df4.js": "/pokemon-app/precache-manifest.80eb810fad136345ecb9d16d183a7df4.js",
     "service-worker.js": "/pokemon-app/service-worker.js",
-    "static/css/main.95bc952e.chunk.css.map": "/pokemon-app/static/css/main.95bc952e.chunk.css.map",
-    "static/js/2.89583d3a.chunk.js.LICENSE.txt": "/pokemon-app/static/js/2.89583d3a.chunk.js.LICENSE.txt"
+    "static/css/main.893857e6.chunk.css.map": "/pokemon-app/static/css/main.893857e6.chunk.css.map",
+    "static/js/2.272655d9.chunk.js.LICENSE.txt": "/pokemon-app/static/js/2.272655d9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57e645c7.js",
-    "static/js/2.89583d3a.chunk.js",
-    "static/css/main.95bc952e.chunk.css",
-    "static/js/main.8328534b.chunk.js"
+    "static/js/2.272655d9.chunk.js",
+    "static/css/main.893857e6.chunk.css",
+    "static/js/main.6052b3d2.chunk.js"
   ]
 }
