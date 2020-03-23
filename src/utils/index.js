@@ -12,5 +12,13 @@ export const FEATURES = {
   normal: 'beige',
   ground: 'dark-olive-green',
   fairy: 'violet',
-  fighting: 'crimson'
+  fighting: 'crimson',
+  rock: 'gray',
+  ghost: 'beige',
+  steel: 'red',
+  psychic: 'crimson',
+  ice: 'blue',
+  dragon: 'red',
+  unknown: 'beige',
+  shadow: 'gray'
 };
