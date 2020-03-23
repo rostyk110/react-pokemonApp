@@ -33,6 +33,8 @@
 }
 
 .card-view {
+  position: sticky;
+  top: 100px;
   margin: 230px auto;
   margin-left: 55px;
   width: 400px;
