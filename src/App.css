@@ -1,0 +1,228 @@
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 40%;
+  margin: 100px auto 50px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cards {
+  width: 790px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  min-height: 350px;
+  margin-left: 55px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-view {
+  margin: 230px auto;
+  margin-left: 55px;
+  width: 400px;
+  height: 740px;
+  border: 1px solid black;
+}
+
+.card-view .image {
+  margin: 15px 15px 0 15px;
+  width: 370px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.card-view .title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-view table {
+  width: 370px;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.card-view table td {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.card .image {
+  margin: 15px 15px 0 15px;
+  width: 170px;
+  height: 170px;
+  border: 1px solid black;
+}
+
+.card .title {
+  text-align: center;
+}
+
+.card .features {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .features .feature {
+  width: 45%;
+  display: flex;
+  padding-bottom: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card .features .feature p {
+  margin: auto;
+  color: #fff;
+}
+
+.cardmin-table {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 0.7rem;
+}
+
+.cardmin-table td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.btn-more {
+  min-width: 200px;
+  width: 100%;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+
+  border-radius: 10px;
+  color: #fff;
+  background-color: blue;
+}
+
+.btn-more:hover {
+  cursor: pointer;
+}
+
+.filter {
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-item {
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.filter-item:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  transition: background-color 0.3s;
+}
+
+.filter-item.active {
+  background-color: #ccc;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: brown;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.beige {
+  background-color: #ee82ee;
+}
+
+.dark-olive-green {
+  background-color: #556b2f;
+}
+
+.violet {
+  background-color: #ee82ee;
+}
+
+.crimson {
+  background-color: #dc143c;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: #ccc;
+}
+
+@media (max-width: 840px) {
+  .card-view {
+    display: none;
+  }
+  .card {
+    display: none;
+  }
+
+  .hidden {
+    display: block;
+  }
+}
